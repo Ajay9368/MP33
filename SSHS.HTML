@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Happy Birthday, [Name]!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ffb3b3, #ffd9b3); /* Soft pastel gradient */
+            color: #5a2a5d;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #ff7b7b;
+            color: white;
+            text-align: center;
+            padding: 40px 0;
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        .birthday-message {
+            font-size: 2.5em;
+            color: #ffcccb;
+            margin-top: 50px;
+            animation: fadeIn 2s ease-out;
+        }
+        .message {
+            font-size: 1.5em;
+            color: #3e2a47;
+            padding: 20px;
+            line-height: 1.6;
+            animation: fadeInUp 2s ease-out;
+        }
+        footer {
+            background-color: #5a2a5d;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 1.2em;
+        }
+        .audio-container {
+            margin-top: 30px;
+            animation: fadeIn 2s ease-out;
+        }
+        audio {
+            width: 80%;
+            border-radius: 10px;
+            border: 2px solid #ff7b7b;
+            background-color: #fff;
+            padding: 10px;
+        }
+        /* Animations */
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        @keyframes fadeInUp {
+            0% { opacity: 0; transform: translateY(50px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Happy Birthday Lucky(SNOW)
+    </header>
+
+    <div class="birthday-message">
+        🎉🎈 Wishing You A Day Full Of Joy! 🎈🎉
+    </div>
+
+    <div class="message">
+        <p>Happy birthday to the most amazing person I know! May your birthday be filled with joy, love, and laughter, and may your heart be overflowing with happiness throughout the coming year. 🎂</p>
+    </div>
+
+    <div class="audio-container">
+        <h3>Here's a special birthday message just for you:</h3>
+        <!-- Add your audio file below. Use a URL to your audio file or a local path -->
+        <audio controls>
+            <source src="path/to/your-audio-file.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+\
+</body>
+</html>
